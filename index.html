@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log-In/Sign-Up</title>
+        <link rel="stylesheet" href="log.css">
+    </head>
+    <body>
+        <div id="body">
+            <div class="card" id="signup">
+                <form onsubmit="signup(event)">
+                    <p>Username: <input id="user" type="text"></p>
+                    <p>Password: <input id="passw" type="password"></p>
+                    <p>Confirm Password: <input id="passcon" type="password"></p>
+                    <button type="submit">Sign Up</button>
+                    <button type="button" onclick="showLogin()">Already have an account? Log In</button>
+                </form>
+                
+            </div>
+            <div class="card" id="login">
+                <form onsubmit="login(event)">
+                    <p>Username: <input id="username" type="text"></p>
+                    <p>Password: <input id="password" type="password"></p>
+                    <button type="submit">Log-In</button>
+                    <button type="button" onclick="showSignup()">Create an Account</button>
+                </form>
+            </div>
+            <div class="card" id="pass">
+                <h1>Welcome</h1>
+                <a href="http://james.lcctcwebdesign.com/">Proceed</a>
+            </div>
+            <div class="part">
+                <div>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                    <p><b></b></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="log.js"></script>
+</html>
